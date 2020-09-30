@@ -1,0 +1,185 @@
+/*------------------تعديل الموقع ليكون متجاوب مع كل الشاشات------------------*/
+/*--------------تعديل صفحة تسجيل الدخول---------------*/
+
+@media only screen and (max-width: 1015px) {
+    #element{
+        width: 100%;
+        height: 100%;
+    }
+    .btn{
+        width: 40%;
+        height: 60px;
+        font-size: 20px;
+        margin: 5px 10px;
+    }
+}
+@media only screen and (max-width: 425px) {
+    #login {
+        width: 90%;
+        margin-right: 4%;
+        margin-top: 10px;
+    }
+    #element{
+        width: 100%;
+        height: 100%;
+    }
+    .btn{
+        width: 45%;
+        height: 60px;
+        font-size: 18px;
+        margin: 5px 5px;
+    }
+    .input , #back{
+        font-size: 18px;
+    }
+
+}
+
+/*-------------------تعديل الصفحة الرئيسية-------------------*/
+@media only screen and (max-width: 1145px){
+    .menu a {
+        font-size: 25px;
+    }
+    aside h1{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    aside pre{
+        font-size: 15px;
+        font-weight: 300;
+    }
+    aside img{
+        top: 0px;
+        left: 0px;
+    }
+}
+@media only screen and (max-width: 1145px){
+    .menu a {
+        font-size: 20px;
+        margin: 5px;
+        padding: 5px 0px;
+    }
+    aside h1{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    aside pre{
+        font-size: 15px;
+        font-weight: 200;
+    }
+    aside img{
+        width: 30%;
+    }
+    aside div{
+        width: 65%;
+    }
+    @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 100%; 
+          margin: 30px 0px;
+          animation-duration: 6s;
+          animation-name: slidein;
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 65%;
+        }
+      }
+      footer{
+          height: 100px;
+          font-size: 12px;
+      }
+      .slidershow{
+        width: 70%;
+        height: 400px;
+    }
+    .middle{
+        margin-right: 15%;
+    }
+      .bar{
+        width: 20px;
+        height: 8px;
+        margin: 4px;
+    }
+}
+@media only screen and (max-width: 690px){
+    aside div{
+        width: 100%;
+    }
+    aside img{
+        width: 15%;
+        top: 50px ;
+    }
+    @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 100%; 
+          margin: 30px 0px;
+          animation-duration: 6s;
+          animation-name: slidein;
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }   
+      main img{
+        width: 40%;
+        height: 350px;
+        margin: 10px;
+    }
+}
+@media only screen and (max-width: 690px){
+    aside div{
+        width: 100%;
+    }
+    aside img{
+        width: 15%;
+        top: 50px ;
+    }
+    @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 100%; 
+          margin: 30px 0px;
+          animation-duration: 6s;
+          animation-name: slidein;
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }   
+      main img{
+        width: 40%;
+        height: 350px;
+        margin: 10px;
+    }
+    .slidershow{
+        width: 100%;
+        height: 400px;
+    }
+    .middle{
+        margin-right: -1%;
+    }
+      .bar{
+        width: 20px;
+        height: 8px;
+        margin: 4px;
+    }
+    .menu a {
+        font-size: 15px;
+        margin: 0px;
+        padding: 0px 0px;
+        font-weight: 100;
+    }
+    footer{
+        height: 100px;
+        font-size: 10px;
+    }
+}
+/*-------------------تعديل صفحة التسوق ---------------*/
